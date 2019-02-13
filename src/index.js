@@ -1,16 +1,8 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Login from './components/login'
 
 
-class Login extends React.Component{
-    render(){
-        return (
-            <div>
-                <p>hello</p>
-            </div>
-        )
-    }
-}
 
 ReactDOM.render(
     <Login />,
