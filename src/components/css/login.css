@@ -6,6 +6,7 @@ body {
   display: flex;
   height: 100vh;
 }
+
 .main-container {
   width: 100%;
   height: 100%;
@@ -24,7 +25,7 @@ body {
   height: 37px;
   width: 256px;
   border-radius: 20px;
-  border:none;
+  border: none;
   outline: none;
   margin-bottom: 11px;
   font-family: 'Open Sans';
@@ -33,11 +34,19 @@ body {
   opacity: 20%;
 }
 
-.chb-login-page{
+.chb-login-page {
   opacity: 0;
-  
+
 }
 
-.btn-sign-up{
+.btn-sign-up {
   margin-top: 31px;
+}
+
+.txt-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
 }

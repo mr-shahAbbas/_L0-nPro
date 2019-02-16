@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-
-
 const bgMain = "#1D1D1D";
 const HiddenCheckbox = styled.input.attrs({ type: "checkbox" })`
   border: 0;
@@ -26,6 +24,7 @@ const StyledCheckbox = styled.div`
 `;
 
 let blueColor = "#2D60EB";
+
 const Icon = styled.svg`
   fill: none;
   stroke: ${blueColor};
@@ -34,13 +33,12 @@ const Icon = styled.svg`
 const CheckboxContainer = styled.div`
   display: inline-block;
   vertical-align: middle;
-  background:${bgMain};
-  border-radius:5px;
+  background: ${bgMain};
+  border-radius: 5px;
   width: 20px;
   height: 20px;
-  
+  cursor: pointer;
 `;
-//const Checkbox = props => <input type="checkbox" {...props} />;
 
 const Checkbox = ({ className, checked, ...props }) => (
   <CheckboxContainer className={className}>
